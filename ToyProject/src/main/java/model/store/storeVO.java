@@ -1,6 +1,7 @@
 package model.store;
 
 public class storeVO {
+	//getter, setter ¼³Á¤
 	private int s_num;
 	private String s_name;
 	private String s_category;
