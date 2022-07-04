@@ -75,8 +75,8 @@
 			aria-labelledby="headingPages" data-parent="#accordionSidebar">
 			<div class="bg-white py-2 collapse-inner rounded">
 				<h6 class="collapse-header">Login Screens:</h6>
-				<a class="collapse-item" href="login.html">로그인</a> <a
-					class="collapse-item" href="register.html">회원가입</a> <a
+				<a class="collapse-item" href="login.jsp">로그인</a> <a
+					class="collapse-item" href="signUp.jsp">회원가입</a> <a
 					class="collapse-item" href="forgot-password.html">아이디/비밀번호 찾기</a>
 			</div>
 		</div></li>

@@ -16,6 +16,11 @@
 	<dependencies>
 	
 		<!-- 1. DBCP 연결설정 -->
+		<dependency><!-- jdbcTemplate사용을 위해 주입 -->
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
 		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>

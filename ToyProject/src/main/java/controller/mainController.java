@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class mainController {
 	
-	@RequestMapping("/index.do")
+	@RequestMapping("/main.do")
 	public String selectOneMeal(HttpSession session) {
-		return "index.jsp";
+		return "main.jsp";
 	}
 
 }

@@ -10,6 +10,10 @@
 	<!-- Spring Bean Configration File로 생성 및 namespaces에서 
 		aop, beans, context체크 -->
 	
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
 	<!-- MySQL Bean설정 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
